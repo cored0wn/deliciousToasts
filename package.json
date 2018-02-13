@@ -1,0 +1,47 @@
+{
+  "name": "react-deliciousToasts",
+  "version": "0.0.1",
+  "description": "React toasts-plugin that works with redux-thunk",
+  "repository": "https://github.com/cored0wn/deliciousToasts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/webpack/bin/webpack.js --watch",
+    "build": "./node_modules/webpack/bin/webpack.js"
+  },
+  "author": "Christopher Wittor <chris@wittor.it>",
+  "license": "MIT",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "redux": "^3.7.2",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.13.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-modules-strip": "^0.1.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.5.1",
+    "file-loader": "^1.1.6"
+  }
+}

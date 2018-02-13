@@ -1,0 +1,37 @@
+.toast {
+  align-items: center;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  padding: 16px;
+}
+
+.toast:not(:last-child) {
+  margin: 0 0 12px;
+}
+
+.toast__content {
+  flex: 1 1 auto;
+  align-self: center;
+  margin: 0 12px 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toast__dismiss {
+  font-size: 120%;
+  &:hover, &:focus {
+    text-decoration: none;
+    background: #0069d9
+  }
+}
+
+.toasts {
+  bottom: 24px;
+  position: fixed;
+  right: 24px;
+  width: 400px;
+  margin: 0;
+}
+
+/* ToDo: make me responsive ! */
