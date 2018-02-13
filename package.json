@@ -1,6 +1,6 @@
 {
   "name": "react-delicious_toasts",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React toasts-plugin that works with redux-thunk",
   "repository": "https://github.com/cored0wn/react-delicious_toasts",
   "scripts": {
