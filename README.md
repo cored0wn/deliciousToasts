@@ -1,5 +1,5 @@
 # deliciousToasts - a simple react plugin
-I've started a few weeks ago with react development. During playing in a real world app I camo to the point where I've to show the user a notification. Through my previous projects I got to know and love [toastr](http://www.toastrjs.com/). I searched for an react implementation but nothing I've found was easy to understand or had few dependencies.
+I've started a few weeks ago with react development. During playing in a real world app I came to the point where I've to show the user a notification. Through my previous projects I got to know and love [toastr](http://www.toastrjs.com/). I searched for an react implementation but nothing I've found was easy to understand or had few dependencies.
 
 So I came up with the idea to implement notifications similar to toastr's own. Thanks to Robert Lyall's ([@robertlyall](https://github.com/robertlyall)) [blog post](https://www.natterly.com/blog/toast-notification-system-in-a-react-redux-application), I found a good place to start. So this is the result of a bloody beginner in react. Maybe it'll help someone else out there.
 
