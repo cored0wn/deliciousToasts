@@ -16,7 +16,7 @@ class Toast extends React.Component {
             <li className={"toast" + (color?' bg-' +color:'')}>
                 {
                     icon ? (
-                        <div className="mr-3" style={{'height': '30px','maxWidth':'30px'}}>{icon}</div>
+                        <div className="mr-3 d-flex align-items-center" style={{'height': '30px','maxWidth':'30px'}}>{icon}</div>
                     ) : ''
                 }
                 <p className="toast__content">
