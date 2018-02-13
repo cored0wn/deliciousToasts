@@ -3,6 +3,8 @@ I've started a few weeks ago with react development. During playing in a real wo
 
 So I came up with the idea to implement notifications similar to toastr's own. Thanks to Robert Lyall's ([@robertlyall](https://github.com/robertlyall)) [blog post](https://www.natterly.com/blog/toast-notification-system-in-a-react-redux-application), I found a good place to start. So this is the result of a bloody beginner in react. Maybe it'll help someone else out there.
 
+![Preview image of a toast](https://image.ibb.co/jgPcd7/2018_02_13_19_58_24.png)
+
 Feel free to place pull requests or open issues :fire:
 
 ## Implementation Guide
