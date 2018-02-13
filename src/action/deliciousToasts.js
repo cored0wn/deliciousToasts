@@ -31,17 +31,18 @@ const defaultOptions = {
 export const createToast = ( options ) => {
     return dispatch => {
 
-        if ( !options.hasOwnProperty( 'message' ) )
-        {
-            options['message'] = demoMessages[ Math.floor( Math.random() * demoMessages.length ) ];
-        }
-
-        return dispatch(
-            addToast( {
+		let toast = {
                           id: id++,
                           ...defaultOptions,
                           ...options,
-                      } ) )
+                      };
+	
+        if ( !toast.hasOwnProperty( 'message' ) )
+        {
+            toast['message'] = demoMessages[ Math.floor( Math.random() * demoMessages.length ) ];
+        }
+
+        return dispatch( addToast( toast ) )
     };
 };
 

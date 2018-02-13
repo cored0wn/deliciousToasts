@@ -52,5 +52,43 @@ class App extends React.Component {
 export default App;
 ```
 
-#### 5. Dispatch an action from anywhere with options
-```TODO```
+#### 5. Dispatch an action from anywhere (with options)
+```javascript
+import React from 'react';
+import {connect} from 'react-redux';
+
+import { createToastAction } from 'react-deliciousToasts';
+
+const myFancyComponent = (props) => (
+    <div>
+        {/*[...]*/}
+        <button onClick={() => props.createToast()}>Hallo</button>
+        {/*[...]*/}
+    </div>
+);
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+            createToast: (options) => {
+                dispatch(createToastAction(options));
+            }
+        }
+};
+
+export default connect((state) => {},mapDispatchToProps)(myFancyComponent);
+```
+
+### toast options
+Currently a toast has only a few options because I don't need more any for my use case. Feel free to add more.
+```javascript
+const options = {
+    icon: null, // any react element | max-width & height 30px
+    color: "primary", // OPTIONAL any bootstrap bg-color
+    message: 'So tasty! ' + String.fromCodePoint( 0x1F60B ), // any message (optional with emoji-codes)
+    
+    id: 12345 // OPTIONAL: If you want to delete your toast your from your application, you can set a manual ID here
+}
+```
+
+### Questions?
+If you have any trouble or question feel free to open an issue :wink:
