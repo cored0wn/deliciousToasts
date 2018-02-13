@@ -16,13 +16,13 @@ Feel free to place pull requests or open issues :fire:
 ##### 2. Add the styles
 import the scss file into your project
 ```javascript
-import 'react-redux-toastr/src/styles/deliciousToasts.scss';
+import 'react-delicious_toasts/src/styles/deliciousToasts.scss';
 ```
 
 ##### 3. Add the reducer
 ```javascript
 import { combineReducers } from 'redux';
-import {reducer as deliciousToasts} from 'react-deliciousToasts';
+import {reducer as deliciousToasts} from 'react-delicious_toasts';
 // [...]
 const appReducer = combineReducers(
     {
@@ -35,7 +35,7 @@ const appReducer = combineReducers(
 ##### 4. Add the container component into your app (root)
 ```javascript
 import React from "react";
-import DeliciousToasts from 'react-deliciousToasts';
+import DeliciousToasts from 'react-delicious_toasts';
 
 class App extends React.Component {
 
@@ -61,7 +61,7 @@ export default App;
 import React from 'react';
 import {connect} from 'react-redux';
 
-import { createToastAction } from 'react-deliciousToasts';
+import { createToastAction } from 'react-delicious_toasts';
 
 const myFancyComponent = (props) => (
     <div>
