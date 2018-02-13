@@ -3640,7 +3640,7 @@ var Toast = function (_React$Component) {
                 { className: "toast" + (color ? ' bg-' + color : '') },
                 icon ? _react2.default.createElement(
                     'div',
-                    { className: 'mr-3', style: { 'height': '30px', 'maxWidth': '30px' } },
+                    { className: 'mr-3 d-flex align-items-center', style: { 'height': '30px', 'maxWidth': '30px' } },
                     icon
                 ) : '',
                 _react2.default.createElement(
